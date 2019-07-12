@@ -55,7 +55,9 @@ nav {
 .overview-main h1{
   margin-right: 8%;
 }
-#overiew-grid {
+#overview-grid {
+  margin-top: 5%;
+  padding-top: 5%;
   height: 40%;
   background-color: white;
   display: grid;
@@ -84,6 +86,8 @@ nav {
   width: 80%;
   margin-left: 10%;
   grid-template: 40% / 60% 20%;
+  padding-bottom: 10%;
+  border-bottom: 2px solid #9f1d35;
 }
 #pkmn-header {
   text-align: center;
@@ -102,4 +106,8 @@ nav {
   width: 80%;
   margin-left: 10%;
   grid-template: 40% / 60% 20%;
+}
+#righter {
+  margin-left: 10%;
+  text-align: center;
 }
