@@ -1,0 +1,54 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+nav {
+  top: 0;
+  position: sticky;
+  margin-top: -8px;
+  margin-left: -8px;
+  width: 101.2%;
+  padding-bottom: 3.2%; /* Change this for the smaller screen */
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  background-color: white;  /* Make this transparent */
+}
+.no-click {
+  cursor: default;
+  font-size: 1.2em;
+}
+.no-click:hover {
+  border: none!important;
+}
+.nav-links {
+  text-decoration: none;
+  color: #9f1d35;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 1%;
+  padding-bottom: 1.1%;
+  transition: border .2s;
+  float: left;
+}
+.nav-links:nth-child(1) {
+  margin-left: 3%;
+
+}
+.nav-links:nth-child(2) {
+  margin-left: 32%;
+}
+.nav-links:hover {
+  border-bottom: 2px solid #9f1d35;
+}
+.skill-name {
+  text-align: center;
+}
+#overiew-grid {
+  display: grid;
+  grid-template: 40% 30% 75% / 20% 20% 20%;
+  grid-column-gap: 8%;
+  width: 80%;
+  margin-left: 20%
+}
+#more-right {
+  margin-left: ;
+  text-align: center;
+}
