@@ -94,3 +94,12 @@ nav {
 .links:hover {
   color: salmon;
 }
+#grapevine {
+  margin-top: 5%;
+  padding-top: 5%;
+  display: grid;
+  height: 40%;
+  width: 80%;
+  margin-left: 10%;
+  grid-template: 40% / 60% 20%;
+}
