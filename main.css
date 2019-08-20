@@ -43,33 +43,64 @@ nav {
   border-bottom: 2px solid #9f1d35;
 }
 .skill-name {
-  text-align: center;
+  color: black;
+  text-align: left;
+  margin-left: 4%;
+}
+.skill-name:nth-child(2) {
+  background-color: salmon;
+  width: 95%;
+  box-shadow: 4px 4px 0 0;
+}
+.skill-name:nth-child(3) {
+  background-color: lightgreen;
+  width: 75%;
+  box-shadow: 4px 4px 0 0;
+}
+.skill-name:nth-child(4) {
+  background-color: red;
+  width: 90%;
+  box-shadow: 4px 4px 0 0;
+}
+.skill-name:nth-child(5) {
+  background-color: lightblue;
+  width: 90%;
+  box-shadow: 4px 4px 0 0;
 }
 .overview-main {
+  display: grid;
+  grid-template: 100%/ 40% 50%;
   margin-top: -1.75%;
-  margin-left: -8px;
+  margin-left: 7%;
   width: 101.25%;
   text-align: center;
-  color: white;
 }
 .overview-main h1{
   margin-right: 8%;
+}
+.overview-card {
+  background-color: white;
+  margin-top: 5%;
+  padding-top: 5%;
+  display: grid;
+  padding-bottom: 5%;
+  border-radius: 1%;
+  border: 2px solid rgba(0,0,0,0.1);
+  box-shadow: 10px 7px 10px 0;
+}
+.softskills {
+  color: white;
 }
 #overview-grid {
   margin-top: 5%;
   padding-top: 5%;
   height: 40%;
-  background-color: white;
   display: grid;
   grid-template: 40% 30% 45% /20% 20% 20% 20%;
   grid-column-gap: 4%;
   width: 80%;
   margin-left: 4%;
   padding-bottom: 4%;
-}
-#more-right {
-  margin-left: 47%;
-  text-align: center;
 }
 #more-left {
   margin-left: -96%;
