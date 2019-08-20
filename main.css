@@ -117,11 +117,17 @@ nav {
   display: grid;
   /* height: %; */
   margin-left: 2%;
-  grid-template: 20% 30% / 100%;
+  grid-template: 8% 10% 30% / 100%;
   padding-bottom: 5%;
   border: 2px solid rgba(0,0,0,0.1);
   border-radius: 1%;
   box-shadow: 10px 7px 10px 0;
+}
+.bulletGrid {
+  display: grid;
+  grid-template: 50% 50% / 50% 50%;
+  margin-bottom: -8px;
+  margin-top: 0;
 }
 #righter {
   margin-left: 10%;
