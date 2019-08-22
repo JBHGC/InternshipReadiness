@@ -31,6 +31,7 @@ nav {
   padding-bottom: 1.1%;
   transition: border .2s;
   float: left;
+  z-index: 2;
 }
 .nav-links:nth-child(1) {
   margin-left: 3%;
@@ -72,8 +73,9 @@ nav {
   grid-template: 100%/ 40% 50%;
   margin-top: -1.75%;
   margin-left: 7%;
-  width: 93%;
+  width: 90%;
   text-align: center;
+  margin-right: 0;
 }
 .overview-main h1{
   margin-right: 8%;
@@ -114,7 +116,7 @@ nav {
 }
 .gym-frame {
   height: 765px;
-  width: 1200px;
+  width: 1215px;
   border: 2px solid #9f1d35;
   margin-left: 1%;
   overflow: hidden;
@@ -136,6 +138,10 @@ nav {
 #pkmn-header {
   text-align: center;
 }
+#pkmnGym-header {
+  text-align: center;
+  margin = 0;
+}
 .links {
   color: #9f1d35;
 }
@@ -145,11 +151,11 @@ nav {
 #pkmnGym {
   background-color: white;
   margin-top: 5%;
-  padding-top: 5%;
+  padding-top: 3%;
   display: grid;
   /* height: %; */
-  margin-left: 2%;
-  grid-template: 8% 10% 30% / 100%;
+  margin-left: .1%;
+  grid-template: 8% 7% 10% 30% / 100%;
   padding-bottom: 5%;
   border: 2px solid rgba(0,0,0,0.1);
   border-radius: 1%;
