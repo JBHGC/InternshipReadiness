@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" href="code.png">
     <title>Jason C - Portfolio</title>
   </head>
@@ -16,7 +17,7 @@
       <a class="nav-links" href="#pkmnGym">Pokemon Gym</a>
     </nav>
     <div class="overview-main">
-      <section class="overview-card">
+      <section data-aos="zoom-out" data-aos-duration="2000"class="overview-card">
         <h1 id="righter">Language Proficiency</h1>
         <h2 class="skill-name">JavaScript <i class="fab fa-js-square"></i></h2>
         <h2 class="skill-name">Python <i class="fab fa-python"></i></h2>
@@ -31,9 +32,9 @@
       <h2>Feel Free to Ask Questions When You're Done Looking around!</h2><br>
     </section>
     </div>
-    <section id="pokemon-project">
+    <section data-aos="fade-right" data-aos-duration="2000" id="pokemon-project">
       <ul>
-        <br><br><br>
+        <br><h1 id="pkmn-header" style="font-size: 42px;">Pokemon Project</h1><br>
         <h1 id="pkmn-header">Features:</h1><br><br><br>
         <li>Made with HTML/CSS & JavaScript</li><br><br>
         <li>Data brought from the <a class="links" href="https://pokeapi.co/">PokeAPI</a></li><br><br>
@@ -44,7 +45,7 @@
       </ul>
       <iframe class="page-frame" src="https://jbhgc.github.io/PkmnTrainerDex/"></iframe>
     </section>
-    <section id="pkmnGym">
+    <section data-aos="fade-left" data-aos-duration="2000" id="pkmnGym">
       <h1 id="pkmn-header">Features:</h1>
       <ul class="bulletGrid">
         <li>Made using HTML/CSS & JavaScript</li>
@@ -54,5 +55,9 @@
       <iframe class="gym-frame" src="https://jbhgc.github.io/PokemonGym/" ></iframe>
     </section>
     <script src="main.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>

@@ -90,6 +90,7 @@ nav {
 }
 .softskills {
   color: white;
+  text-shadow: 5px 9px 6px black;
 }
 #overview-grid {
   margin-top: 5%;
